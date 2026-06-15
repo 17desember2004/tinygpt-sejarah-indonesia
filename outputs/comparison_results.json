@@ -1,0 +1,35 @@
+{
+  "title": "Comparison 3 Pendekatan Tokenisasi TinyGPT",
+  "corpus": {
+    "domain": "Sejarah Indonesia",
+    "words": 2016,
+    "characters": 15340
+  },
+  "approaches": [
+    {
+      "name": "Character-Level",
+      "vocab_size": 68,
+      "initial_loss": 4.379892349243164,
+      "final_loss": 1.8818588256835938,
+      "loss_reduction": 57.03413062175433,
+      "generated_text": "Sejaraha pamaidalai di pesiar dagan\nkertinguh donembendi panggir beruang olek\nmpelakan ajahang otla "
+    },
+    {
+      "name": "Word-Level",
+      "vocab_size": 502,
+      "initial_loss": 6.335648059844971,
+      "final_loss": 1.4876275062561035,
+      "loss_reduction": 76.51972628207344,
+      "oov_rate": 36.948297604035304,
+      "generated_text": "indonesia yang dibandingkan dan tiongkok dan kerajaan islam pertama yang menghubungkan perdagangan a"
+    },
+    {
+      "name": "SentencePiece BPE",
+      "vocab_size": 100,
+      "initial_loss": 4.774787902832031,
+      "final_loss": 2.307831048965454,
+      "loss_reduction": 51.666312809483564,
+      "generated_text": "Kerajaani lejuran Selari bilaj dan omat-lai rembandi dari rianda tegang di bagang nusantem daang Par"
+    }
+  ]
+}
